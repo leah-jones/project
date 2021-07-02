@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>About</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Roboto+Slab:wght@200;400&display=swap"
+    rel="stylesheet">
+
+  <link href="css/css2.css" rel="stylesheet">
+
+
+  <style>
+
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 0.25em;
+  }
+    .container {
+      display: grid;
+      grid-template-columns: 0.5fr 1.2fr 0.6fr 1.2fr 0.5fr;
+      grid-template-rows: auto 7em auto 7em auto 7em auto 7em auto;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        ". left1 center1 right1 ."
+        ". . line1 . . "
+        ". left2 center2 right2 ."
+        ". . line2 . . "
+        ". left3 center3 right3 ."
+        ". . line3 . . "
+        ". left4 center4 right4 ."
+        ". . line4 . . "
+        ". left5 center5 right5 .";
+    }
+
+    .vl-r {
+      border-right: 0.1em solid #ddd;
+      left: 50%;
+      top: 0;
+
+    }
+    .vl-l {
+      border-left: 0.1em solid #ddd;
+      left: 50%;
+      top: 0;
+
+    }
+
+    .center1 {
+      grid-area: center1;
+      padding-top: 5em;
+
+    }
+
+    .center2 {
+      grid-area: center2;
+
+
+    }
+
+    .center3 {
+      grid-area: center3;
+
+    }
+
+    .center4 {
+      grid-area: center4;
+
+    }
+
+    .center5 {
+      grid-area: center5;
+
+    }
+
+    .left1 {
+      grid-area: left1;
+      text-align: left;
+      padding-top: 5em;
+    }
+
+    .left2 {
+      grid-area: left2;
+    }
+
+    .left3 {
+      grid-area: left3;
+
+    }
+
+    .left4 {
+      grid-area: left4;
+    }
+
+    .left5 {
+      grid-area: left5;
+
+    }
+
+    .right5 {
+      grid-area: right5;
+    }
+
+    .right4 {
+      grid-area: right4;
+
+    }
+
+    .right3 {
+      grid-area: right3;
+    }
+
+    .right2 {
+      grid-area: right2;
+
+    }
+
+    .right1 {
+      grid-area: right1;
+    }
+
+    .line1 {
+      display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "lineLeft1 lineRight1";
+  grid-area: line1;
+
+    }
+
+    .line2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "lineLeft1 lineRight1";
+      grid-area: line2;
+    }
+
+    .line3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "lineLeft1 lineRight1";
+      grid-area: line3;
+    }
+
+    .line4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "lineLeft1 lineRight1";
+      grid-area: line4;
+    }
+
+
+    .round {
+      grid-area: Round1;
+      border-radius: 50%;
+      height: 150px;
+      border: 0.5em solid #ddd;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .alignLeft {
+      text-align: left;
+    }
+
+    .alignRight {
+      text-align: right;
+    }
+
+    .aboutMain {
+      font-size: 32px;
+      font-weight: bold;
+      padding-bottom: 1%;
+      padding-top: 1em;
+      text-align: center;
+    }
+
+    .headingText {
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .aboutSub {
+    font-family: "Roboto Slab", serif;
+    font-style: italic;
+    font-weight: 100;
+    text-align: center;
+    }
+
+    .aboutSub2 {
+      font-family: "Roboto Slab", serif;
+      font-style: italic;
+      font-weight: 100;
+      }
+
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div>
+
+      <h3>STUDIO</h3>
+
+    </div>
+
+    <div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">SERVICES</a>
+          </li>
+          <li>
+            <a href="portfolio.html">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="about.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="team.html">TEAM</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <section>
+
+    <div class="aboutMain">
+      <h1 class="aboutMain">
+        ABOUT
+      </h1>
+    </div>
+
+
+    <div >
+      <h3 class="aboutSub">Lorem ipsum dolor sit amet consectetur.</h3>
+    </div>
+
+    <div class="container">
+      <div class="center1">
+        <img class="round" src="images/about/1.jpg" alt="cliff at dawn">
+      </div>
+      <div class="center2">
+        <img class="round" src="images/about/2.jpg" alt="airplane taxing">
+      </div>
+
+      <div class="center3">
+        <img class="round" src="images/about/3.jpg" alt="laptop">
+      </div>
+
+      <div class="center4">
+        <img class="round" src="images/about/4.jpg" alt="snowy mountain tops">
+      </div>
+
+      <div class="center5">
+        <img class="round" src="images/about/5.png" alt="be part of our story">
+      </div>
+
+      <div class="left1">
+        <h4 class="alignRight headingText">2009-2011</h4>
+      <h4 class="alignRight headingText">Our Humble Beginnings</h4>
+      <p class="alignRight aboutSub2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
+      </div>
+
+      <div class="left2">
+
+      </div>
+
+      <div class="left3">
+        <h4 class="alignRight headingText">December 2012</h4>
+        <h4 class="alignRight headingText">Transition to Full Service</h4>
+        <p class="alignRight aboutSub2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
+      </div>
+
+      <div class="left4">
+
+
+      </div>
+      <div class="left5">
+
+      </div>
+
+      <div class="right5">
+
+      </div>
+
+      <div class="right4">
+        <h4 class="headingText">July 2014</h4>
+      <h4 class="headingText">Phase Two Expansion</h4>
+      <p class="aboutSub2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
+      </div>
+
+      <div class="right3">
+
+      </div>
+
+      <div class="right2">
+        <h4 class="headingText">March 2011</h4>
+      <h4 class="headingText">An Agency is Born</h4>
+      <p class="aboutSub2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+
+      </div>
+
+      <div class="right1">
+
+      </div>
+
+      <div class="line1">
+        <div class="lineLeft1 vl-r"></div>
+        <div class="lineRight1 vl-l"></div>
+
+      </div>
+      <div class="line2">
+        <div class="lineLeft1 vl-r"></div>
+        <div class="lineRight1 vl-l"></div>
+
+      </div>
+      <div class="line3">
+        <div class="lineLeft1 vl-r"></div>
+        <div class="lineRight1 vl-l"></div>
+
+      </div>
+      <div class="line4">
+        <div class="lineLeft1 vl-r"></div>
+        <div class="lineRight1 vl-l"></div>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <div id="footerborder"></div>
+
+  <footer>
+
+    <div>
+      <p>Copyright © Your Website 2021</p>
+    </div>
+
+    <div>
+      <img src=images/social-icons.png height="50px">
+    </div>
+
+    <div>
+      <ul>
+        <li><a href="">Privacy Policy</li>
+        <li><a href="">Terms of Use</li>
+      </ul>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

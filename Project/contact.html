@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Contact</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Roboto+Slab:wght@200;400&display=swap" rel="stylesheet">
+
+
+  <style>
+
+main {
+  background-color:#212529;
+  background-image: url("https://fit-fed-summer-2021.s3.amazonaws.com/leah-jones-project/map-image.png")
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+
+}
+
+h2 {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 24pt;
+  color: #f8f9fa;
+  }
+}
+
+p {
+  text-align: center;
+  padding-top: 2%;
+}
+
+h3 {
+  text-align: center;
+}
+
+#contacthero {
+  background-image: img src="images/map-image.jpg";
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+#contacthero h2 {
+  color: #f8f9fa;
+  padding-bottom: 20px;
+}
+
+#contacthero p {
+  color: #f8f9fa;
+  text-align: center;
+  padding-bottom: 60px;
+  font-weight: 100;
+}
+
+.box {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 95%;
+  padding: 16px;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: 'Montserrat', sans-serif;
+  color: #212529;
+  font-weight: bold;
+  margin:11px;
+
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 10pt;
+  background-color: #fed136;
+  color: #f8f9fa;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  color: #212529;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+
+}
+
+.col-75 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+  </style>
+
+  <link href="css/css2.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header>
+
+<div id="title">
+
+<h3>STUDIO</h3>
+
+</div>
+
+<div>
+
+<nav>
+  <ul>
+    <li>
+      <a href="index.html">SERVICES</a>
+    </li>
+    <li>
+      <a href="portfolio.html">PORTFOLIO</a>
+    </li>
+    <li>
+      <a href="about.html">ABOUT</a>
+    </li>
+    <li>
+      <a href="team.html">TEAM</a>
+    </li>
+    <li>
+      <a href="contact.html">CONTACT</a>
+    </li>
+  </ul>
+</nav>
+
+</div>
+
+</header>
+
+<main>
+
+<div id="contacthero">
+
+<h2>CONTACT</h2>
+<p><em>Lorem ipsum dolor sit amet consectetur.</em></p>
+
+<div class="box" action="" method="push">
+  <form>
+  <div class="row">
+    <div class="col-25">
+    	 <input type="text" id="name" name="name" placeholder="Your Name*">
+         <input type="text" id="email" name="email" placeholder="Your Email*">
+         <input type="text" id="phone" name="phone" placeholder="Your Phone*">
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Your Message*" style="height:200px"></textarea>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <input type="submit" value="SEND MESSAGE">
+  </div>
+  </form>
+</div>
+
+
+  </div>
+
+</main>
+
+
+<footer>
+
+  <div>
+      <p>Copyright © Your Website 2021</p>
+  </div>
+
+  <div>
+      <img src=images/social-icons.png height="50px">
+  </div>
+
+  <div>
+      <ul>
+        <li><a href="">Privacy Policy</li>
+        <li><a href="">Terms of Use</li>
+      </ul>
+  </div>
+
+</footer>
+
+</body>
+
+</html>
